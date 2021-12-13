@@ -1,0 +1,246 @@
+body {
+    background-color: rgb(223, 223, 223);
+}
+
+a{
+    text-decoration: none;
+    margin: 0;
+    color: grey;
+}
+
+a:hover{
+    color: mediumturquoise;
+}
+
+.blue{
+    color: mediumturquoise;
+}
+
+.tabknoppen{
+    border-collapse: separate;
+    border-spacing: 50px 0px;
+    position: relative;
+    float: right;
+    top: 30px;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+.ixatlogo{
+    float: left;
+    height: 70px;
+}
+
+.homeimage_position{
+    position: absolute;
+    bottom: 0%;
+    left: 20%;
+}
+
+.homeimage{
+    border-radius: 15px;
+    height: 600px;
+}
+
+.chauffeur_aanmelden{
+    border-collapse: separate;
+    border-spacing: 50px 20px;
+    position: relative;
+    float: left;
+    left: 16%;
+    top: 120px;
+}
+
+.titel{
+    position: relative;
+    left: 295px;
+    top: 130px;
+}
+
+.Aanmelden_klant{
+    font-size: 36px;
+    color: rgb(102, 98, 98);
+    font-family: sans-serif;
+
+}
+
+input{
+    font-size: 14px;
+    font-family: sans-serif;
+    height: 40px;
+    width: 250px;
+    border-radius: 10px;
+    border-color: gray;
+}
+
+.Aanmelden_chauffeur{
+    font-size: 36px;
+    color: rgb(102, 98, 98);
+    font-family: sans-serif;
+    height: 500px;
+}
+
+.button{
+    background-color: rgb(90, 90, 90);
+    color: white;
+    font-weight: bold;
+}
+
+.button_red{
+    background-color: rgb(199, 37, 37);
+    color: white;
+    font-weight: bold;
+}
+
+.red{
+    color: red;
+}
+
+.klantafbeelding{
+    height: 450px;
+
+}
+
+.klant_image{
+    position: absolute;
+    bottom: 25%;
+    left: 65%;
+}
+
+.inloggen{
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.inlogtekst{
+    position: relative;
+    left: 430px;
+    top: 120px;
+}
+
+.inlogafbeelding{
+    height: 450px;
+}
+
+.extra_tekst{
+    width: 100%;
+    position: relative;
+    top: 740px;
+    height: 300px;
+    background-color: white;
+    color: gray;
+    font-family: sans-serif;
+}
+
+.extra_tekst_chauf{
+    width: 100%;
+    position: relative;
+    top: 350px;
+    height: 300px;
+    background-color: white;
+    color: gray;
+    font-family: sans-serif;
+}
+
+.extra_tekst_klant{
+    width: 100%;
+    position: relative;
+    top: 450px;
+    height: 300px;
+    background-color: white;
+    color: gray;
+    font-family: sans-serif;
+}
+
+h2{
+    color: rgb(92, 92, 92);
+    font-size: 25px;
+    font-family: sans-serif;
+}
+
+.tekst_vak{
+    width: 60%;
+}
+
+.zij_vak{
+    width: 20%;
+}
+
+.Selection{
+    font-size: 14px;
+    font-family: sans-serif;
+    height: 40px;
+    width: 250px;
+    border-radius: 10px;
+}
+
+.profielkeuze{
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    text-align: center;
+}
+
+.aanvragen_openstaand{
+    border-top:gray 7px groove;
+    border-bottom:gray 7px ridge;
+    position: absolute;
+    top: 20%;
+    left: 25%;
+    width: 20%;
+    text-align: center;
+}
+
+
+.aanvragen{
+    font-size: 25px;
+    font-family: sans-serif;
+}
+
+.profiel_chauffeur{
+    border-collapse: separate;
+    border-spacing: 50px 10px;
+    position: relative;
+    left: 45%;
+    top: 450px;
+
+}
+
+.ixatmap{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    height: 35%;
+    width: 40%;
+}
+
+.datum_aanvraag{
+    position: absolute;
+    top: 58%;
+    left: 70%;
+    text-align: center;
+}
+
+.informatie{
+    border-top:                                 gray 7px groove;
+    border-bottom:                              gray 7px ridge;
+    position:                                     relative;
+    top:                                          80px;
+    text-align:                                   center;
+    border-spacing:                               15px;
+    width: 100%;
+  }
+
+  .tekstrand1{
+    border-top:                                 rgb(218, 204, 8) 5px groove;
+    border-bottom:                              rgb(218, 204, 8) 5px ridge;
+    width:                                        50%;
+    font-size: 25px;
+    font-family: sans-serif;
+  }
+
+  .tekstrand2{
+    width:                                        50%;
+    font-size: 15px;
+    font-family: sans-serif;
+  }
